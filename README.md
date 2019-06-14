@@ -1,4 +1,4 @@
-# Cloud-native Java Workshop
+# Cloud-native Java Workshop with Watson and Cloudant
 
 This workshop demonstrates the use of MicroProfile, Docker, Kubernetes and Istio technologies for implementing, deploy and update a set of cloud-native microservices. The workshop has be structured as four modules:
 * **Module 1** covers the foundational technologies for producing and consuming REST services with some added extras like talking to Watson and storing your data in a no-sql database.
