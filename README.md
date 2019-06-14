@@ -57,12 +57,12 @@ To use these guides you need the following pre-requisites:
 6. Helm V2.13.1: https://github.com/helm/helm/releases/tag/v2.13.1
 7. IBM Cloud CLI:
 
-  MAC: `curl -fsSL https://clis.cloud.ibm.com/install/osx | sh`
+    MAC: `curl -fsSL https://clis.cloud.ibm.com/install/osx | sh`
 
-  LINUX: `curl -fsSL https://clis.cloud.ibm.com/install/linux | sh`
+    LINUX: `curl -fsSL https://clis.cloud.ibm.com/install/linux | sh`
 
-  WINDOWS: Open command prompt as an administrator and run the following command.
-`powershell -command "Set-ExecutionPolicy Unrestricted; iex(New-Object Net.WebClient).DownloadString('https://clis.cloud.ibm.com/install/powershell')"``
+    WINDOWS: Open command prompt as an administrator and run the following command.
+    `powershell -command "Set-ExecutionPolicy Unrestricted; iex(New-Object Net.WebClient).DownloadString('https://clis.cloud.ibm.com/install/powershell')"`
 8. IBM Cloud Container Registry plug-in: To install the container registry plug-in, run the following command: `ibmcloud plugin install container-registry`
 9. IBM Cloud Kubernetes Service plug-in: To install the Kubernetes registry plug-in, run the following command: `ibmcloud plugin install kubernetes-service`
 
