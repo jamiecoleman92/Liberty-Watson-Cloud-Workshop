@@ -16,10 +16,12 @@ designed to be taken independently so if you just want to learn about a specific
     - [Pre-requisites](#pre-requisites)
     - [Downloads](#downloads)
 - [Introduction](#introduction)
-- [Module 1: REST Foundation](#module-1-rest-foundation)
+- [Module 1: REST Foundation with Watson and Cloudant](#module-1-rest-foundation-with-watson-and-cloudant)
     - [Creating a RESTful web service](#creating-a-restful-web-service)
-    - [Injecting dependencies into microservices](#injecting-dependencies-into-microservices)
+    - [Injecting dependencies into microservices](#injecting-dependencies-into-microservices)    
     - [Consuming RESTful services with template interfaces](#consuming-restful-services-with-template-interfaces)
+    - [Utilizing a Watson service on the IBM Cloud](#utilizing-a-watson-service-on-the-ibm-cloud)
+    - [Storing data on the cloud with Cloudant](#Storing-data-on-the-cloud-with-cloudant)
 - [Module 2: Scalable Microservice Development](#module-2-scalable-microservice-development)
     - [Configuring Microservices](#configuring-microservices)
     - [Building fault-tolerant microservices with the @Fallback annotation](#building-fault-tolerant-microservices-with-the-fallback-annotation)
@@ -52,7 +54,17 @@ To use these guides you need the following pre-requisites:
    1. Windows: https://docs.docker.com/docker-for-windows/#kubernetes
    2. Mac: https://docs.docker.com/docker-for-windows/#kubernetes
    3. Linux: https://github.com/kubernetes/minikube#installation)
-6. Download latest stable Istio release (not a Pre-release): https://github.com/istio/istio/releases
+6. Helm V2.13.1: https://github.com/helm/helm/releases/tag/v2.13.1
+7. IBM Cloud CLI:
+
+  MAC: `curl -fsSL https://clis.cloud.ibm.com/install/osx | sh`
+
+  LINUX: `curl -fsSL https://clis.cloud.ibm.com/install/linux | sh`
+
+  WINDOWS: Open command prompt as an administrator and run the following command.
+`powershell -command "Set-ExecutionPolicy Unrestricted; iex(New-Object Net.WebClient).DownloadString('https://clis.cloud.ibm.com/install/powershell')"``
+8. IBM Cloud Container Registry plug-in: To install the container registry plug-in, run the following command: `ibmcloud plugin install container-registry`
+9. IBM Cloud Kubernetes Service plug-in: To install the Kubernetes registry plug-in, run the following command: `ibmcloud plugin install kubernetes-service`
 
 ### Downloads
 
@@ -113,18 +125,18 @@ https://github.com/openliberty/guide-microprofile-rest-client
 ### Utilizing a Watson service on the IBM Cloud
 Learn how to create a microservice using MicroProfile to talk to an online cloud service using provided API's.
 
-The Guide: Please add URL
+The Guide: https://github.com/jamiecoleman92/guide-watson-openliberty
 
 If you have feedback or find problems, please raise an issue here:
-Please add URL
+https://github.com/jamiecoleman92/guide-watson-openliberty
 
 ### Storing data on the cloud with Cloudant
 Learn how to store your data (JSON) on the cloud using a no-sql database called cloudant.
 
-The Guide: Please add URL
+The Guide: https://github.com/jamiecoleman92/guide-cloudant-openliberty
 
 If you have feedback or find problems, please raise an issue here:
-Please add URL
+https://github.com/jamiecoleman92/guide-cloudant-openliberty
 
 # Module 2: Scalable Microservice Development
 
